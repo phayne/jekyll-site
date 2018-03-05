@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Paul</strong> Hayne
+title: Paul <strong>Hayne</strong>
 description: Assistant Professor || <a href="https://www.colorado.edu/aps" target="\_blank">Astrophysical & Planetary Sciences Department</a><br>|| <a href="https://lasp.colorado.edu" target="\_blank">Laboratory for Atmospheric & Space Physics</a><br>|| <a href="https://www.colorado.edu" target="\_blank">University of Colorado Boulder</a>
 
 profile:

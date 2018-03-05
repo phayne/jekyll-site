@@ -4,6 +4,8 @@ title: research
 permalink: /research/
 description: Brief summaries of past and ongoing research projects.
 ---
+I may be looking for new group members: postdoctoral scholars, PhD students, and undergraduate researchers.
+Please <a href="mailto:Paul.Hayne@Colorado.edu">get in touch</a> if you are interested!
 
 {% for project in site.projects %}
 
