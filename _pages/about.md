@@ -35,5 +35,5 @@ models and quantitative analysis to interpret remote sensing data.
 
 
 Here, you will find brief summaries of some of my group's ongoing <a href="research/">research</a>,
-along with useful tools and sporadic <a href="blog/">blog</a> entries about how we pursue these
+along with tools and sporadic <a href="blog/">blog</a> entries about how we pursue these
 projects.
