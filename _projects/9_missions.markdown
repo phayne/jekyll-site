@@ -5,9 +5,10 @@ description: exploring new worlds
 img: /assets/img/mro.jpg
 ---
 
-Our robotic emissaries in space transmit critical data as they explore the Solar System.
-Soon, astronauts may also embark on missions to distant worlds, aided by our understanding of these planets and their
-space environments.
+Our robotic emissaries in space beam back treasure troves of data as they explore the
+farthest reaches of the Solar System.
+Soon, astronauts may also embark on missions to distant worlds, aided by our understanding of the planets and their
+environments in space.
 As a participant in this endeavor, I am a co-investigator on several ongoing and
 upcoming NASA missions.
 I am also active in the area of instrument development and mission formulation.
