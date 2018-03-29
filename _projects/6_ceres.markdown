@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ceres Thermal Models
-description: an icy crust?
+description: a hidden icy crust?
 img: /assets/img/ceres.jpg
 ---
 
