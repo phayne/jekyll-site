@@ -2,8 +2,17 @@
 layout: page
 title: research
 permalink: /research/
-description: Brief summaries of past and ongoing research projects.
+description:
 ---
+
+<div class="summary">
+Research in the EPIC group spans a range of planetary bodies, unified by a focus
+on ice and volatiles. We use numerical methods to model planetary
+surfaces and atmospheres, making and testing predictions using remote sensing data.
+<br><br>
+Below, you will find links to summaries of past and ongoing research projects.
+</div>
+
 
 {% for project in site.projects %}
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ceres Thermal Models
-description: a hidden icy crust?
+title: Ice on Ceres
+description: thermal and vapor transport models
 img: /assets/img/ceres.jpg
 ---
 

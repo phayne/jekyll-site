@@ -15,9 +15,19 @@ description: Education projects, including a growing collection of course materi
 
 <h3 id="teaching"> Teaching at CU Boulder </h3>
 
-* Spring semester, 2018: ASTR/ATOC-3720: <i>Planets and their Atmospheres</i>
+* Fall semseter, 2018: <a href="https://catalog.colorado.edu/search/?P=ASTR%201030" target="\_">ASTR 1030: <i>Accelerated Introductory Astronomy I</i></a>
+
+* Spring semester, 2018: <a href="https://catalog.colorado.edu/search/?P=ASTR%203720" target="\_">ASTR/ATOC-3720: <i>Planets and their Atmospheres</i></a>
   - Lecture notes posted on `GitHub`, rendered by `nbiewer`:
-    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture01_Intro.ipynb" target="\blank">Lecture01_Intro</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture01_Intro.ipynb" target="\blank">Introduction</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture00_Gases.ipynb" target="\blank">Review: Physics of Gases</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture01_Planet-Formation.ipynb" target="\blank">Formation of Planets and Atmospheres</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture01_Atmospheric-Retention.ipynb" target="\blank">Retaining an Atmosphere</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture02_Hydrostatic-Equilibrium.ipynb" target="\blank">Hydrostatic Equilibrium</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture02_Adiabatic-Lapse-Rate.ipynb" target="\blank">Adiabatic Lapse Rate</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture04_Radiation.ipynb" target="\blank">Radiation</a>
+    - <a href="http://nbviewer.jupyter.org/github/phayne/planetary-atmospheres/blob/master/Lecture08_Dynamics.ipynb" target="\blank">Dynamics</a>
+
 <div class="img_row">
   <img class="col one" src="{{ site.baseurl }}/assets/img/saturn_vortex.jpg" alt="Saturn's north polar vortex"/>
   <img class="col two" src="{{ site.baseurl }}/assets/img/mars_atmosphere.jpg" alt="Dust layers in Mars' atmosphere"/>
@@ -47,7 +57,7 @@ NASA's <a href="https://mars.nasa.gov/mro" target="\_blank">Mars Reconnaissance 
 <a href="http://www.adastra.world/" target="\_blank">Ad Astra Academy</a>.
 
 <blockquote>
-Science and exploration shouldn't be privileges granted through special access.
+Science and exploration can be accessible to curious minds all over the world.
 Young people in under-resourced communities throughout the developing world
 deserve the same opportunities afforded to students at the best schools in
 America.

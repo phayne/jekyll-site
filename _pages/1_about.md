@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: Paul <strong>Hayne</strong>
+title: Paul Hayne
 description: Assistant Professor || <a href="https://www.colorado.edu/aps" target="\_blank">Astrophysical & Planetary Sciences Department</a><br>|| <a href="https://lasp.colorado.edu" target="\_blank">Laboratory for Atmospheric & Space Physics</a><br>|| <a href="https://www.colorado.edu" target="\_blank">University of Colorado Boulder</a>
 
 profile:
@@ -27,11 +27,11 @@ Observations reveal *active* planetary systems: <a href="https://news.nationalge
 ever-present.
 
 I am an assistant professor of astrophysical and planetary sciences at the
-University of Colorado. My <a href="research/">research</a> focuses on the thermal behavior of
-terrestrial planets and moons, including activity driven by volatiles.
+University of Colorado Boulder. My <a href="research/">research</a> focuses on
+the thermal behavior of terrestrial planets and moons, especially icy worlds.
 Data from spacecraft and Earth-based observatories enable my group
 to investigate planetary atmospheres and surfaces. We develop physics-based
-models and quantitative analysis to interpret remote sensing data.
+models and perform quantitative analysis to interpret remote sensing data.
 
 
 Here, you will find brief summaries of some of my group's ongoing <a href="research/">research</a>,

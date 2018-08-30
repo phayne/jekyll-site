@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Mission Involvement
-description: exploring new worlds
+description: exploring distant worlds
 img: /assets/img/mro.jpg
 ---
 
 Our robotic emissaries in space beam back treasure troves of data as they explore the
-farthest reaches of the Solar System.
+furthest reaches of the Solar System.
 Soon, astronauts may also embark on missions to distant worlds, aided by our understanding of the planets and their
 environments in space.
 As a participant in this endeavor, I am a co-investigator on several ongoing and
 upcoming NASA missions.
-I am also active in the area of instrument development and mission formulation.
+I am also active in the areas of instrument development and mission formulation.
 
 <div class="img_row">
     <img class="col one" src="{{ site.baseurl }}/assets/img/cassini.jpg" alt="Cassini" title="cassini"/>

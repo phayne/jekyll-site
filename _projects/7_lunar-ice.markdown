@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ice on the Moon
-description: a scientific treasure trove
+description: origins and distribution
 img: /assets/img/moon-crater.jpg
 ---
 
