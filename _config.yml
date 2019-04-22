@@ -84,6 +84,9 @@ plugins:
     - jekyll/scholar
     - jemoji
 
+emoji:
+  src: "https://github.com/images/icons/"
+
 # Jekyll-Scholar
 scholar:
 

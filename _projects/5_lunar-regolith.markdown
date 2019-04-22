@@ -38,3 +38,11 @@ Further information:
 <a href="https://www.sciencedirect.com/science/article/pii/S0019103513005356">Link</a></li>
 </ul>
 </div>
+
+<br>
+<ul>Data Products:
+  <li><a href="https://goo.gl/JhMGs5" target="\_blank">Diviner H-parameter</a> (thermal inertia)
+  <p>In this directory, you will find maps of the H-parameter in meters, along with latitude and longitude grids.
+  These data files are in 32-bit floating point format, 128 pixels per degree (ppd), spanning -70 to +70 degrees latitude.
+  Also provided in the same directory are thermal inertia (referenced to 273 K) maps at 10 ppd.</p></li>
+</ul>
