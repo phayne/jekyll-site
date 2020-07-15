@@ -35,11 +35,11 @@ valued for their contributions.
 <tr><td colspan="2">Faculty and Researchers:</td></tr>
 <tr>
   <td><div align="center"><img src="../assets/img/paul.jpg" align="left" width="150"><b>Paul Hayne</b></div></td>
-  <td>Dr. Paul Hayne is an assistant professor in the department of Astrophysical & Planetary Sciences, and LASP. He grew up near Seattle, Washington. Paul joined the CU faculty in January, 2018, after serving for five years as a research scientist at NASA’s Jet Propulsion Laboratory in Pasadena, CA. Paul earned his bachelor’s and master’s degrees at Stanford University, and his PhD at UCLA (with David Paige). He did his postdoc at Caltech (with Oded Aharonson), where he developed numerical models for investigating the behavior of volatiles on the Moon and Ceres.</td>
+  <td>Dr. Paul Hayne is an assistant professor in the department of <a href="https://colorado.edu/aps" target="\_blank">Astrophysical & Planetary Sciences</a>, and <a href="https://lasp.colorado.edu" target="\_blank">LASP</a>. He grew up near Seattle, Washington. Paul joined the <a href="https://colorado.edu" target="\_blank">CU</a> faculty in January, 2018, after serving for five years as a research scientist at NASA’s <a href="https://jpl.nasa.gov" target="\_blank">Jet Propulsion Laboratory</a> in Pasadena, CA. Paul earned his bachelor’s and master’s degrees at <a href="https://earth.stanford.edu/geophysics" target="\_blank">Stanford University</a>, and his PhD at <a href="https://epss.ucla.edu/research-areas/planetary-science/" target="\_blank">UCLA</a> (with David Paige). He did his postdoc at <a href="http://web.gps.caltech.edu/options/planetary/" target="\_blank">Caltech</a> (with Oded Aharonson), where he developed numerical models for investigating the behavior of volatiles on the Moon and Ceres.</td>
 </tr>
 <tr>
   <td><div align="center"><img src="../assets/img/anya.png" align="left" width="150"><b>Ganna (Anya) Portyankina</b></div></td>
-  <td>Dr. Anya Portyankina is a LASP Research Associate, whose research focuses on the behavior of CO<sub>2</sub> frosts on Mars.</td>
+  <td>Dr. Ganna (Anya) Portyankina is a LASP Research Associate, whose research focuses on the seasonal behavior of CO2 frosts on Mars. Anya is from Ukraine. She earned her Master degree in Physics and Astronomy from Kharkiv National University and her PhD, or more precisely, Dr. rer. nat. – Doctor rerum naturalium – in Astrophysics from University of Göttingen in Germany. Anya’s main scientific interest is ices in the Solar System, from Martian polar caps to icy satellites of giant planets. She plans observations and works with data from HiRISE and CaSSIS, and works in the low-temperature labs to simulate environments that can host CO<sub>2</sub> ice.</td>
 </tr>
 <tr>
   <td><div align="center"><img src="../assets/img/michael.jpg" align="left" width="150"><b>Michael Aye</b></div></td>
@@ -47,7 +47,7 @@ valued for their contributions.
 </tr>
 <tr>
   <td><div align="center"><img src="../assets/img/margaret.jpg" align="left" width="150"><b>Margaret Landis</b></div></td>
-  <td>Dr. Margaret Landis is a LASP Research Associate, who joined the EPIC group in 2019. Her research focuses on the nature and distribution of ice in the inner solar system.</td>
+  <td>Dr. Margaret Landis (she/her) joined the EPIC group in June 2019. Her research focuses on water ice in the inner solar system, especially on Mars and Ceres. She earned undergraduate degrees in physics and astronomy, with university honors, at Northern Arizona University in Flagstaff, and completed her PhD at University of Arizona's Lunar and Planetary Laboratory with Dr. Shane Byrne. She has participated on the science team of Mars Reconnaissance Orbiter's High Resolution Imaging Science Experiment (HiRISE) camera and on Dawn, as both a Guest Investigator Student and instrument team member. She completed a post-doc working with Dr. Thomas Prettyman (Planetary Science Institute) on Dawn's Gamma Ray and Neutron Detector (GRaND) data analysis before coming to LASP. </td>
 </tr>
 <tr><td colspan="2">Graduate Students:</td></tr>
 <tr>
@@ -61,7 +61,7 @@ valued for their contributions.
 <tr><td colspan="2">Undergraduate Students:</td></tr>
 <tr>
   <td><div align="center"><img src="../assets/img/carlos.jpg" align="left" width="150"><b>Carlos Eytan Gary Bicas</b></div></td>
-  <td>Carlos hails from Mexico City. He moved to Colorado to pursue a career in planetary science. He is a senior who will soon graduate from the University of Colorado with a degree in Astronomy. He is currently working at looking at Mars’ polar snowfall to figure out how Mars’ climate might be controlled by the South Polar Residual Cap (SPRC).</td>
+  <td>Carlos hails from Mexico City. He moved to Colorado to pursue a career in planetary science. He is a senior who will soon graduate from the University of Colorado with a degree in Astronomy. He is currently working on looking at Mars’ polar snowfall to understand how Mars’ climate might be controlled by the South Polar Residual Cap (SPRC).</td>
 </tr>
 <tr>
   <td><div align="center"><img src="../assets/img/tyler.jpg" align="left" width="150"><b>Tyler Horvath</b></div></td>
