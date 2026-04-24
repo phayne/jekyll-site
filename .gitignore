@@ -1,0 +1,18 @@
+# Bundler / Ruby build
+.bundle/
+vendor/
+*.gem
+
+# Sass / Jekyll caches
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS metadata
+.DS_Store
+
+# Backup files
+*.bak
+
+# Stray _site inside subdirectories (only top-level _site is tracked)
+scripts/_site/

@@ -3,6 +3,7 @@ layout: page
 title: Lunar Eclipses
 description: thermal infrared observations
 img: /assets/img/moon.jpg
+tags: [moon, thermal, infrared, regolith, surface]
 ---
 
 What does the Moon's uppermost surface reveal about its space environment?
@@ -24,7 +25,8 @@ By measuring the Moon's cooling during a $$ \sim 5 $$-hr total eclipse, we can i
 Therefore, with the aid of models, we can measure eclipse cooling to isolate the upper layer and quantify these physical properties.
 Many of the Moon's most familiar features disappear in thermal images during an eclipse, replaced by the glow of denser materials, such as small rocks in crater ejecta. Comparing the AEOS images to thermal maps from the <a href="https://nasa.gov/lro" target="\_blank">Lunar Reconnaissance Orbiter's</a> <a href="https://diviner.ucla.edu" target="\_blank">Diviner</a> instrument allows us to make inferences about the past and present rates of space weathering, impact gardening, and regolith development -- important processes on many planetary bodies.
 
-Further information:
+#### Related Publications
+
 <div class="publications">
 <ul>
 <li>

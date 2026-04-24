@@ -1,14 +1,56 @@
 .publications {
+    margin-top: 2em;
+
     h2 {
         color: $theme-color;
-        // border-bottom: 1px solid $theme-color;
-        // border-top: 1px solid $theme-color;
         font-size: 32px;
         margin-bottom: 30px;
-        // padding: 20px 0;
         text-align: center;
     }
+
+    h3.year {
+        color: $theme-color;
+        border-bottom: 1px solid $light-gray;
+        padding-bottom: 0.5em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .publication {
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        border-bottom: 1px dashed #eee;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+
+        .pub-title {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+
+            a {
+                color: $theme-color;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .pub-authors {
+            margin-bottom: 0.5em;
+            font-size: 0.9em;
+        }
+
+        .pub-journal {
+            font-size: 0.9em;
+            margin-bottom: 0.5em;
+        }
+    }
 }
+
 .year {
     border-top: 1px solid $light-gray;
     color: $light-gray;
@@ -16,6 +58,7 @@
     padding-top: 1ex;
     text-align: right;
 }
+
 .bibliography {
     margin-bottom: 50px;
     margin-top: 20px;
@@ -81,8 +124,20 @@
         position: absolute;
             left: -7em;
     }
- }
+}
+
 .star {
     color: $theme-color;
     font-style: normal;
+}
+
+.related-publications {
+    margin-top: 3em;
+    padding-top: 1em;
+    border-top: 2px solid $light-gray;
+
+    h2 {
+        margin-bottom: 1em;
+        color: $theme-color;
+    }
 }

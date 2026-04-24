@@ -28,7 +28,8 @@ potentially habitable environments on Mars. Our ongoing research is revealing
 new insights into the exchange of water and carbon dioxide between the polar caps
 and atmosphere.
 
-Further information:
+#### Related Publications
+
 <div class="publications">
 <ul>
 <li><u>Hayne, P. O.</u>, Paige, D. A., & Heavens, N. G. (2014). The role of snowfall in forming the seasonal ice caps of Mars: Models and constraints from the Mars Climate Sounder. <i>Icarus, 231</i>, 122-130.

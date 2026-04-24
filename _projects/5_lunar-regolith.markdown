@@ -27,7 +27,8 @@ Some of these features have never been seen before, and are ripe for further stu
 Many of the underlying processes also occur on other planetary bodies, making the
 Moon a "cornerstone" for understanding other planets.
 
-Further information:
+#### Related Publications
+
 <div class="publications">
 <ul>
 <li><u>Hayne, P. O.</u>, Bandfield, J. L., Siegler, M. A., Vasavada, A. R., Ghent, R. R., Williams, J. P., ... & Paige, D. A. (2017), Global regolith thermophysical properties of the Moon from the Diviner Lunar Radiometer Experiment, <i>Journal of Geophysical Research: Planets</i>

@@ -1,7 +1,5 @@
 <header class="site-header">
-
   <div class="wrapper">
-
     {% if page.layout != "about" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
@@ -23,24 +21,21 @@
 
       <div class="trigger">
         <!-- About -->
-        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">home</a>
+        <a class="page-link" href="{{ '/' | relative_url }}">home</a>
 
-        <!-- Pages -->
+        <!-- Pages - Simpler approach that matches your live site -->
         {% for page in site.pages %}
           {% if page.title and page.url != "/" %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-
+    
         <!-- Blog -->
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
-
+        <!-- <a class="page-link" href="{{ '/blog/' | relative_url }}">blog</a> -->
+        
         <!-- CV link -->
-        <!--- <a class="page-link" href="{{ '/assets/files/cv.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> --->
-
+        <!--- <a class="page-link" href="{{ '/assets/files/cv.pdf' | relative_url }}">vitae</a> --->
       </div>
     </nav>
-
   </div>
-
 </header>

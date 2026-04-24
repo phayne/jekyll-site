@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Europa Clipper
-description: NASA's next outer planets flagship
+title: Europa
+description: thermal and compositional properties
 img: /assets/img/europa.jpg
+tags: [outer-solar-system, ice, surface, spectroscopy, composition, thermal]
 redirect: https://europa.nasa.gov
 ---
 

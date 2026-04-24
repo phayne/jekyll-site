@@ -14,19 +14,17 @@
   <meta name="description" content="A simple academic web site design. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
-  <!--- <link rel="shortcut icon" href="/assets/img/favicon.ico"> --->
+  <!--- <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico"> --->
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/projects/6_ceres/">
+  <link rel="canonical" href="http://localhost:4000/projects/6_ceres/">
 </head>
 
 
   <body>
 
     <header class="site-header">
-
   <div class="wrapper">
-
     
     <span class="site-title">
         
@@ -50,7 +48,7 @@
         <!-- About -->
         <a class="page-link" href="/">home</a>
 
-        <!-- Pages -->
+        <!-- Pages - Simpler approach that matches your live site -->
         
           
         
@@ -70,24 +68,15 @@
             <a class="page-link" href="/teaching/">teaching</a>
           
         
-          
-        
-          
-        
-          
-        
-
+    
         <!-- Blog -->
-        <a class="page-link" href="/blog/">blog</a>
-
+        <!-- <a class="page-link" href="/blog/">blog</a> -->
+        
         <!-- CV link -->
         <!--- <a class="page-link" href="/assets/files/cv.pdf">vitae</a> --->
-
       </div>
     </nav>
-
   </div>
-
 </header>
 
 
@@ -102,8 +91,8 @@
   </header>
 
   <article class="post-content Ice on Ceres clearfix">
-    <p>Ceres is the largest body in the Main Asteroid Belt, and also the innermost dwarf planet in the Solar System.
-At a mean solar distance of <script type="math/tex">\sim 2.8</script> AU, Ceres also occupies a very interesting place, near the “snow line” – an important boundary in the protoplanetary disk, where water vapor transitions to ice. Ceres’ surface contains little water, because the snow line has moved outward to <script type="math/tex">\sim 5</script> AU (near the orbit of Jupiter). However, sporadic water vapor detections around Ceres have led to the idea that remnants of the dwarf planet’s icy past might linger just beneath the surface.</p>
+    <p>Ceres is the largest body in the Main Asteroid Belt, and also the innermost dwarf planet in the solar system.
+At a mean solar distance of \(\sim 2.8\) AU, Ceres also occupies a very interesting place, near the “snow line” – an important boundary in the protoplanetary disk, where water vapor transitions to ice. Ceres’ surface contains little water, because the snow line has moved outward to \(\sim 5\) AU (near the orbit of Jupiter). However, sporadic water vapor detections around Ceres have led to the idea that remnants of the dwarf planet’s icy past might linger just beneath the surface.</p>
 
 <div class="img_row">
     <img class="col two" src="/assets/img/ceres.jpg" alt="" title="Mars polar ice cap" />
@@ -114,12 +103,15 @@ At a mean solar distance of <script type="math/tex">\sim 2.8</script> AU, Ceres 
     (Right) Ceres' permanently shadowed regions (PSR) are likely to harbor water ice deposits, if they remain shadowed over the entire ~12-kyr obliquity cycle. <i>Credit: NASA/Dawn Mission/JPL/Caltech</i>
 </div>
 
-<p>We developed thermal and vapor transport models to investigate ice stability on Ceres, using realistic rough topography. Accounting for roughness increases the modeled extent of ground ice (to <script type="math/tex">\sim 30-40^\circ</script> latitude), but surface ice is limited to permanent shadows on billion-year timescales. However, lifetimes of illuminated ice may be up to <script type="math/tex">\sim 100</script> kyr if it is relatively pure and cohesive. NASA’s <a href="https://dawn.jpl.nasa.gov/">Dawn</a> mission found
+<p>We developed thermal and vapor transport models to investigate ice stability on Ceres, using realistic rough topography. Accounting for roughness increases the modeled extent of ground ice (to \(\sim 30-40^\circ\) latitude), but surface ice is limited to permanent shadows on billion-year timescales. However, lifetimes of illuminated ice may be up to \(\sim 100\) kyr if it is relatively pure and cohesive. NASA’s <a href="https://dawn.jpl.nasa.gov/">Dawn</a> mission found
 <a href="https://www.nasa.gov/feature/jpl/where-is-the-ice-on-ceres-new-nasa-dawn-findings">evidence</a> for widespread ice in the near subsurface and exposed ice in the polar shadows of Ceres, confirming our model predictions.</p>
 
-<p>Further information:</p>
+<h4 id="related-publications">Related Publications</h4>
+
 <div class="publications">
 <ul>
+<li>Landis, M.E., ..., <u>Hayne, P.O.</u>, et al., 2019. Water vapor contribution to Ceres' exosphere from observed surface ice and postulated ice‐exposing impacts. <i>Journal of Geophysical Research: Planets, 124(1)</i>, pp.61-75.
+<a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2018JE005780">Link</a></li>
 <li><u>Hayne, P. O.</u>, &amp; Aharonson, O. (2015). Thermal stability of ice on Ceres with rough topography. <i>Journal of Geophysical Research: Planets, 120(9)</i>, 1567-1584.
 <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015JE004887/full">Link</a></li>
 </ul>
@@ -139,7 +131,7 @@ At a mean solar distance of <script type="math/tex">\sim 2.8</script> AU, Ceres 
     <footer>
 
   <div class="wrapper">
-    &copy; Copyright 2020 Paul O. Hayne.
+    &copy; Copyright 2026 Paul O. Hayne.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
@@ -152,20 +144,20 @@ At a mean solar distance of <script type="math/tex">\sim 2.8</script> AU, Ceres 
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
+<script src="http://localhost:4000/assets/js/common.js"></script>
 
 
 <!-- Load KaTeX -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
-<script src="/assets/js/katex.js"></script>
+<script src="http://localhost:4000/assets/js/katex.js"></script>
 
 
 
 
 <!-- Include custom icon fonts -->
-<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="/assets/css/academicons.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.min.css">
 
 <!-- Google Analytics -->
 <script>

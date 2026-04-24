@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Titan Occultations
-description: peering through the haze
+title: Titan
+description: surface-atmosphere interactions
 img: /assets/img/titan.jpg
+tags: [outer-solar-system, atmosphere, climate, spectroscopy, composition]
 ---
 
 Saturn's largest moon, Titan, is also the only moon with a thick atmosphere.
@@ -21,7 +22,8 @@ Comparable in size to Jupiter's moon Ganymede, Titan's interior is *differentiat
 
 We designed and carried out a series of occultation experiments to probe Titan's atmospheric transmission - similar to exoplanet transit spectroscopy. With improved atmospheric parameters, we were able to more clearly "see" Titan's surface and determine its composition. This approach revealed an icy surface, similar in composition to other icy satellites, but with an imprint of the precipitated hydrocarbon particles.
 
-Further information:
+#### Related Publications
+
 <div class="publications">
 <ul>
 <li><u>Hayne, P. O.</u>, McCord, T. B., & Sotin, C. (2014). Titan’s surface composition and atmospheric transmission with solar occultation measurements by Cassini VIMS. Icarus, 243, 158-172.

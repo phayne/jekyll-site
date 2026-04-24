@@ -1,0 +1,157 @@
+# Group members data in YAML format
+# Last updated: April 5, 2025
+# 
+# Format:
+# - name: Member Name
+#   role: Position Title
+#   status: Current or Alumni status
+#   website: URL to personal webpage (optional)
+#   image: filename.jpg (optional)
+#   research_interest: Research description that can include commas, special characters, etc.
+
+- name: Paul Hayne
+  role: Associate Professor
+  status: Current
+  website: https://experts.colorado.edu/display/fisid_163352
+  image: paul.jpg
+  research_interest: Planetary science and remote sensing
+
+- name: Noora Alsaeed (Ph.D.)
+  role: PhD Student
+  status: Alumni - Now at UAE Space Agency
+  website: https://space.gov.ae/en
+  image: noora.jpg
+  research_interest: Mars climate and remote sensing
+
+- name: Andrew Wilcoski (Ph.D.)
+  role: PhD Student
+  status: Alumni - Now postdoc at NASA/Jet Propulsion Laboratory
+  website: https://science.jpl.nasa.gov/people/andrew-wilcoski/
+  image: andrew.jpg
+  research_interest: Climate modeling and volatile transport
+
+- name: Patrick O'Brien (Ph.D.)
+  role: Research Associate
+  status: Current
+  website: https://lasp.colorado.edu/people/patrick-obrien/
+  image: patrick.jpg
+  research_interest: Thermal modeling of planetary surfaces and landscape evolution
+
+- name: Robert Stevens
+  role: PhD Student
+  status: Current
+  website: https://www.colorado.edu/aps/robby-stevens
+  image: robert.jpg
+  research_interest: Mars climate and radiative transfer
+
+- name: Kya Sorli
+  role: PhD Student
+  status: Current
+  website: https://www.colorado.edu/aps/kya-sorli
+  image: kya.jpg
+  research_interest: Thermophysical modeling of asteroids and icy bodies
+
+- name: Heshani Pieris
+  role: PhD Student
+  status: Current
+  website: https://lasp.colorado.edu/people/heshani-pieris/
+  image: heshani.jpg
+  research_interest: Mars dust storms and lunar instrumentation
+
+- name: Tyler Horvath
+  role: Undergraduate Student
+  status: Former - Now PhD student at UCLA
+  website: https://scholar.google.com/citations?user=YSGaRC4AAAAJ&hl=en
+  image: tyler.jpg
+  research_interest: Lunar caves
+
+- name: Margaret Landis (Ph.D.)
+  role: Research Associate
+  status: Former - Now faculty at ASU
+  website: https://scholar.google.com/citations?user=JPnlS40AAAAJ&hl=en
+  image: margaret.jpg
+  research_interest: Solar system volatiles
+
+- name: Anya Portyankina (Ph.D.)
+  role: Research Associate
+  status: Former - Now Department Head at DLR
+  website: https://scholar.google.com/citations?user=t4maDokAAAAJ&hl=en
+  image: anya.jpg
+  research_interest: Mars polar processes and Enceladus jets
+
+- name: K. Michael Aye (Ph.D.)
+  role: Research Associate
+  status: Former - Now scientist at DLR
+  website: https://scholar.google.co.kr/citations?user=kDjSsIAAAAAJ&hl=zh-CN
+  image: michael.jpg
+  research_interest: Computational planetary science and data analysis
+
+- name: Harish (Ph.D.)
+  role: Postdoc
+  status: Current
+  website: https://scholar.google.com/citations?user=TT92ksgAAAAJ&hl=en
+  image: harish.jpg
+  research_interest: Asteroid surface composition and lunar volatiles
+
+- name: Carlos Gary-Bicas (Ph.D.)
+  role: Undergraduate Student
+  status: Former - Now postdoc at Lousiana State University
+  website:
+  image: carlos.jpg
+  research_interest: Mars surface processes and remote sensing
+
+- name: Tara Tomlinson
+  role: Undergraduate Student
+  status: Former - Now PhD student at Dartmouth College
+  website:
+  image: tara.jpg
+  research_interest: Europa and icy satellite surface processes
+
+- name: Maya Nussbaumer
+  role: Undergraduate Student
+  status: Current
+  website:
+  image: maya.jpg
+  research_interest: Europa surface composition and astrobiology
+
+- name: Bethany Fuhrman
+  role: Undergraduate Student
+  status: Current
+  website:
+  image: bethany.jpg
+  research_interest: Mimas and icy satellite tectonics
+
+- name: Shaelyn Raposa
+  role: Undergraduate Student
+  status: Former - Now PhD student at Northern Arizona University
+  website:
+  image: shaelyn.jpg
+  research_interest: Icy body surface composition and spectroscopy
+
+- name: Sam Aberbook
+  role: Undergraduate Student
+  status: Former - Now in biotech industry
+  website:
+  image: sam.jpg
+  research_interest: Europa thermophysical properties
+
+- name: Victoria Concepcion
+  role: Undergraduate Student
+  status: Former - Now PhD student at Arizona State University
+  website: https://search.asu.edu/profile/4198279
+  image: victoria.jpg
+  research_interest: Mars clouds and surface processes
+
+- name: Sam Cartwright
+  role: PhD Student
+  status: Current
+  website: https://www.colorado.edu/studentgroups/gsga/samuel-cartwright
+  image: sam_cartwright.jpg
+  research_interest: (with M. E. Landis) Mars polar processes and geologic mapping
+
+- name: Grace Shore
+  role: Undergraduate Student
+  status: Current
+  website:
+  image: grace.jpg
+  research_interest: (with M. E. Landis) Mars polar ice caps

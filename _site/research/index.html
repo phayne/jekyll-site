@@ -14,19 +14,17 @@
   <meta name="description" content="A simple academic web site design. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
-  <!--- <link rel="shortcut icon" href="/assets/img/favicon.ico"> --->
+  <!--- <link rel="shortcut icon" href="http://localhost:4000/assets/img/favicon.ico"> --->
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/research/">
+  <link rel="canonical" href="http://localhost:4000/research/">
 </head>
 
 
   <body>
 
     <header class="site-header">
-
   <div class="wrapper">
-
     
     <span class="site-title">
         
@@ -50,7 +48,7 @@
         <!-- About -->
         <a class="page-link" href="/">home</a>
 
-        <!-- Pages -->
+        <!-- Pages - Simpler approach that matches your live site -->
         
           
         
@@ -70,24 +68,15 @@
             <a class="page-link" href="/teaching/">teaching</a>
           
         
-          
-        
-          
-        
-          
-        
-
+    
         <!-- Blog -->
-        <a class="page-link" href="/blog/">blog</a>
-
+        <!-- <a class="page-link" href="/blog/">blog</a> -->
+        
         <!-- CV link -->
         <!--- <a class="page-link" href="/assets/files/cv.pdf">vitae</a> --->
-
       </div>
     </nav>
-
   </div>
-
 </header>
 
 
@@ -102,158 +91,241 @@
   </header>
 
   <article class="post-content research clearfix">
-    <div class="summary">
+    <style>
+.research-intro {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.research-section {
+  margin-bottom: 2.5rem;
+}
+
+.research-section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.research-item {
+  text-align: center;
+}
+
+.research-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.research-item a:hover {
+  opacity: 0.8;
+}
+
+.research-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.4rem;
+  border: 1px solid #ddd;
+}
+
+.research-item-label {
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.mission-category {
+  margin-bottom: 1.5rem;
+}
+
+.mission-category h3 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.mission-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mission-list li {
+  font-size: 0.9rem;
+}
+
+.mission-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.mission-list a:hover {
+  text-decoration: underline;
+}
+
+.data-section {
+  margin-bottom: 1.5rem;
+}
+
+.data-section h3 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.data-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0;
+}
+
+.data-list li {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.data-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.data-list a:hover {
+  text-decoration: underline;
+}
+
+.nested-list {
+  list-style: circle;
+  padding-left: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.private-note {
+  color: #888;
+  font-style: italic;
+  font-size: 0.85em;
+}
+</style>
+
+<div class="research-intro">
 Research in the EPIC group spans a range of planetary bodies, unified by a focus
-on ice and volatiles. We use numerical methods to model planetary
-surfaces and atmospheres, making and testing predictions using remote sensing data.
-<br /><br />
-Below, you will find links to summaries of past and ongoing research projects.
-Links to data products are also provided, in the spirit of "open science."
+on ice and volatiles. We use numerical methods to model planetary surfaces and 
+atmospheres, making and testing predictions using remote sensing data.
 </div>
 
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/1_eclipses/">
-        
-        <img class="thumbnail" src="/assets/img/moon.jpg" />
-            
-        <span>
-            <h1>Lunar Eclipses</h1>
-            <br />
-            <p>thermal infrared observations</p>
-        </span>
-        </a>
+<!-- PLANETARY BODIES -->
+<div class="research-section">
+  <h2>Planetary Bodies</h2>
+  <div class="research-grid">
+    <div class="research-item">
+      <a href="/projects/10_moon/">
+        <img class="research-icon" src="/assets/img/research/moon.jpg" alt="Moon" />
+        <div class="research-item-label">Moon</div>
+      </a>
     </div>
-</div>
-
-<div class="project">
-    <div class="thumbnail">
-        <a href="https://europa.nasa.gov" target="\_blank">
-        
-        <img class="thumbnail" src="/assets/img/europa.jpg" />
-            
-        <span>
-            <h1>Europa Clipper</h1>
-            <br />
-            <p>NASA's next outer planets flagship</p>
-        </span>
-        </a>
+    <div class="research-item">
+      <a href="/projects/11_mars/">
+        <img class="research-icon" src="/assets/img/research/mars.jpg" alt="Mars" />
+        <div class="research-item-label">Mars</div>
+      </a>
     </div>
-</div>
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/3_titan/">
-        
-        <img class="thumbnail" src="/assets/img/titan.jpg" />
-            
-        <span>
-            <h1>Titan Occultations</h1>
-            <br />
-            <p>peering through the haze</p>
-        </span>
-        </a>
+    <div class="research-item">
+      <a href="/projects/12_satellites/">
+        <img class="research-icon" src="/assets/img/research/satellites.jpg" alt="Satellites" />
+        <div class="research-item-label">Satellites of the Giant Planets</div>
+      </a>
     </div>
-</div>
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/4_mars-pld/">
-        
-        <img class="thumbnail" src="/assets/img/mars-pld.jpg" />
-            
-        <span>
-            <h1>Mars Paleoclimate</h1>
-            <br />
-            <p>clues in the polar ice deposits</p>
-        </span>
-        </a>
+    <div class="research-item">
+      <a href="/projects/13_asteroids/">
+        <img class="research-icon" src="/assets/img/research/asteroids.jpg" alt="Asteroids" />
+        <div class="research-item-label">Asteroids &amp; Comets</div>
+      </a>
     </div>
+  </div>
 </div>
 
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/5_lunar-regolith/">
-        
-        <img class="thumbnail" src="/assets/img/moon_h-oblique2.jpg" />
-            
-        <span>
-            <h1>Lunar Regolith</h1>
-            <br />
-            <p>formation and evolution</p>
-        </span>
-        </a>
-    </div>
+<!-- MISSIONS -->
+<div class="research-section">
+  <h2>Missions</h2>
+  
+  <div class="mission-category">
+    <h3>Moon</h3>
+    <ul class="mission-list">
+      <li><a href="/projects/14_missions/#lro">Lunar Reconnaissance Orbiter</a></li>
+      <li><a href="/projects/14_missions/#lunar-flashlight">Lunar Flashlight</a></li>
+      <li><a href="/projects/14_missions/#lunar-vise">CLPS CP-21: Lunar-VISE</a></li>
+      <li><a href="/projects/14_missions/#l-ciris">CLPS CP-22: L-CIRiS</a></li>
+      <li><a href="/projects/14_missions/#l-maps">Lunar Terrain Vehicle: L-MAPS</a></li>
+    </ul>
+  </div>
+  
+  <div class="mission-category">
+    <h3>Mars</h3>
+    <ul class="mission-list">
+      <li><a href="/projects/14_missions/#mro">Mars Reconnaissance Orbiter</a></li>
+    </ul>
+  </div>
+  
+  <div class="mission-category">
+    <h3>Asteroids</h3>
+    <ul class="mission-list">
+      <li><a href="/projects/14_missions/#ema">Emirates Mission to the Asteroid Belt</a></li>
+      <li><a href="/projects/14_missions/#janus">Janus</a></li>
+      <li><a href="/projects/14_missions/#dawn">Dawn</a></li>
+    </ul>
+  </div>
+  
+  <div class="mission-category">
+    <h3>Outer Solar System</h3>
+    <ul class="mission-list">
+      <li><a href="/projects/14_missions/#europa-clipper">Europa Clipper</a></li>
+      <li><a href="/projects/14_missions/#cassini">Cassini</a></li>
+      <li><a href="/projects/14_missions/#galileo">Galileo</a></li>
+    </ul>
+  </div>
 </div>
 
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/6_ceres/">
-        
-        <img class="thumbnail" src="/assets/img/ceres.jpg" />
-            
-        <span>
-            <h1>Ice on Ceres</h1>
-            <br />
-            <p>thermal and vapor transport models</p>
-        </span>
-        </a>
-    </div>
+<!-- DATASETS AND MODELS -->
+<div class="research-section">
+  <h2>Datasets and Models</h2>
+  
+  <div class="data-section">
+    <h3>Datasets</h3>
+    <ul class="data-list">
+      <li><a href="/projects/20_diviner-h-parameter/">Diviner H-parameter</a> (thermal inertia)</li>
+      <li><a href="/projects/21_lamp-water/">LAMP water detections</a></li>
+      <li><a href="/projects/22_cassini-vims-titan/">Cassini VIMS Titan occultation spectra</a></li>
+      <li><a href="/projects/23_galileo-nims-europa/">Galileo NIMS Europa hyperspectral images</a></li>
+      <li><a href="/projects/24_galileo-ppr/">Galileo PPR thermal maps</a></li>
+    </ul>
+  </div>
+  
+  <div class="data-section">
+    <h3>Models</h3>
+    <ul class="data-list">
+      <li>Thermophysical models:
+        <ul class="nested-list">
+          <li><a href="https://github.com/phayne/heat1d" target="_blank">heat1d</a></li>
+          <li><a href="https://github.com/phayne/PTM3D" target="_blank">PTM3D</a> <span class="private-note">(private)</span></li>
+        </ul>
+      </li>
+      <li>Atmospheric radiative transfer</li>
+      <li><a href="https://github.com/phayne/planet-tools" target="_blank">Reflectance and emission spectroscopy</a></li>
+    </ul>
+  </div>
 </div>
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/7_lunar-ice/">
-        
-        <img class="thumbnail" src="/assets/img/moon-crater.jpg" />
-            
-        <span>
-            <h1>Ice on the Moon</h1>
-            <br />
-            <p>origins and distribution</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/8_mars-snow/">
-        
-        <img class="thumbnail" src="/assets/img/snowflake.jpg" />
-            
-        <span>
-            <h1>Martian Snow</h1>
-            <br />
-            <p>flurries in the polar night</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/9_missions/">
-        
-        <img class="thumbnail" src="/assets/img/mro.jpg" />
-            
-        <span>
-            <h1>Mission Involvement</h1>
-            <br />
-            <p>exploring distant worlds</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-<p><br />
-<u>Data Products:</u></p>
-<ul>Moon
-  <li><a href="https://goo.gl/JhMGs5" target="\_blank">Diviner H-parameter</a> (thermal inertia).
-  <p>In this directory, you will find maps of the H-parameter in meters, along with latitude and longitude grids.
-  These data files are in 32-bit floating point format, 128 pixels per degree (ppd), spanning -70 to +70 degrees latitude.
-  Also provided in the same directory are thermal inertia (referenced to 273 K) maps at 10 ppd.</p></li>
-</ul>
 
   </article>
 
@@ -269,7 +341,7 @@ Links to data products are also provided, in the spirit of "open science."
     <footer>
 
   <div class="wrapper">
-    &copy; Copyright 2020 Paul O. Hayne.
+    &copy; Copyright 2026 Paul O. Hayne.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
@@ -282,20 +354,20 @@ Links to data products are also provided, in the spirit of "open science."
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!-- Load Common JS -->
-<script src="/assets/js/common.js"></script>
+<script src="http://localhost:4000/assets/js/common.js"></script>
 
 
 <!-- Load KaTeX -->
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
-<script src="/assets/js/katex.js"></script>
+<script src="http://localhost:4000/assets/js/katex.js"></script>
 
 
 
 
 <!-- Include custom icon fonts -->
-<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-<link rel="stylesheet" href="/assets/css/academicons.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.min.css">
 
 <!-- Google Analytics -->
 <script>
