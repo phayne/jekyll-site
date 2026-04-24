@@ -5,6 +5,27 @@ description: spacecraft missions and instrument involvement
 img: /assets/img/research/missions.jpg
 ---
 
+<style>
+/* Visually separate each mission: extra top margin and a faint top rule */
+article.post-content h4[id] {
+    margin-top: 2em;
+    padding-top: 1.25em;
+    border-top: 1px solid #e5e5e5;
+}
+/* Suppress the rule on the first mission in each section */
+article.post-content h2 + h4[id],
+article.post-content h4[id]:first-of-type {
+    border-top: none;
+    padding-top: 0.25em;
+    margin-top: 0.75em;
+}
+/* Tighten the two meta lines under each h4 so the block reads as one unit */
+article.post-content h4[id] + p,
+article.post-content h4[id] + p + p {
+    margin-bottom: 0.25em;
+}
+</style>
+
 Our group is involved in a range of NASA and international missions, contributing to instrument development, science planning, and data analysis.
 
 ---
